@@ -1,8 +1,11 @@
+import service.AuthorService;
 import service.BookService;
 
+import java.sql.SQLException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         BookService bookService = new BookService();
-        bookService.addBook("harrypoter",2000,1);
+        bookService.loadBook(7);
     }
 }
