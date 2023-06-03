@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DataBaseConnection {
-    static final String URL = "jdbc:postgresql://localhost:5432/HWSeven";
+    static final String URL = "jdbc:postgresql://localhost:5432/hwseven";
     static final String USER_NAME = "postgres";
     static final String PASSWORD = "myjava123";
 
